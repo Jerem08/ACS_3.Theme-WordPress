@@ -1,0 +1,309 @@
+/*
+ Theme Name:   Arrow-Jerem
+ Version:      1.0.
+ Theme URI:
+ Description:  Intégration maquette arrow.
+ Author:       Jeremy Vion
+ Text Domain:  arrow
+*/
+/*  >>>>>>>>>>>>>>>>> reset <<<<<<<<<<<<<<<<<<< CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  text-align: center;
+  font-size: 2rem;
+  width: 400px;
+}
+
+.article_bdd {
+  max-width: 100%;
+  height: 200px;
+  background: #f1f;
+}
+/* class redondante */
+.hr{
+  width: 3em;
+  height: 7px;
+  background-color: rgb(41, 128, 185);
+  align-content: center;
+  margin-top: 0.6em;
+  margin-bottom: 1.5em;
+}
+.hr-white{
+  width: 3em;
+  height: 7px;
+  background-color: white;
+  align-content: center;
+  margin-top: 0.6em;
+  margin-bottom: 1.5em;
+}
+.paragraph-white{
+  color: white;
+}
+.title-white{
+  color: white;
+}
+.title-blue{
+    color: rgb(41, 128, 185);
+}
+.title-and-paragraph{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5em;
+}
+.overflow-background1{
+background-image: url(img/Sep-bot.png);
+height: 320px;
+width: 100%;
+margin-bottom: -1px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+filter: drop-shadow(0px -90px 31px #00000070);
+}
+.overflow-background2{
+background-image: url(img/Sep-top.png);
+height: 320px;
+margin-top: -1px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+filter: drop-shadow(0px 90px 31px #00000070);
+}
+/*  >>>>>>>>>>>>>>>>> font <<<<<<<<<<<<<<<<<<< CSS */
+body{
+font-family: 'releway-regular', sans-serif;
+color: #616161;
+background-color: #fafcfe;
+}
+/*  >>>>>>>>>>>>>>>>> header <<<<<<<<<<<<<<<<<<< CSS */
+header{
+background-image: url(img/hero-01.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 850px;
+}
+.Logo-arrow{
+  padding: 20px;
+}
+
+#know-more {
+background: transparent;
+}
+
+
+
+/*  >>>>>>>>>>>>>>>>> SECTION SERVICES <<<<<<<<<<<<<<<<<<< CSS */
+.icones-idea-design-code p{
+    width: 15em;
+}
+.title-and-paragraph p{
+text-align: center;
+width: 40%;
+}
+.title-and-paragraph-white{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5em;
+}
+.items-01{
+  height: 250px;
+  width: 250px;
+  border-radius: 3px;
+  margin-bottom: 80px;
+}
+.items-01 img {
+border-radius: 3px;
+}
+.overlay-items-02{
+opacity: 0;
+height: 250px;
+background-color: #018cff7a;
+width: 250px;
+transition: all 1s;
+border-radius: 3px;
+}
+.icon-twitter-linkedin-camera{
+margin: 109px 10px;
+color: 2980b9;
+background-color: white;
+padding: 12px;
+font-size: 1.5em;
+width: 2em;
+border-radius: 61px;
+transition: all 1s;
+}
+.icon-twitter-linkedin-camera:hover{
+background-color: #c7ffeffc;
+}
+.items-01:hover .overlay-items-02 {
+  opacity: 1;
+}
+.nom-prenom-our-team{
+width: 250px;
+margin-top: 260px;
+}
+.nom-prenom-our-team h4{
+color: #2980b9;
+}
+/* services */
+#position-all-services{
+padding: 32px 9% 0 11%;
+align-items: center;
+align-content: center;
+text-align: center;
+}
+/*  >>>>>>>>>>>>>>>>> Portfolio <<<<<<<<<<<<<<<<<<< */
+
+#title-our-portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+}
+#title-our-portfolio h2{
+  color: #fafcfe;
+  padding-bottom: 10px;
+
+}
+#portfolio-container{
+  background-image: url(img/BG1.png);
+      background-size: cover;
+      background-attachment: fixed;
+      height: auto;
+}
+
+.container-portfolio-items{
+  flex-shrink: 0;
+    margin-top: 20px;
+      width: 1100px;
+      height: 435px;
+}
+
+.container-portfolio-items img{
+      width: 310px;
+      height: 170px;
+}
+
+.ticle {
+  max-width: 310px;
+  max-height: 170px;
+}
+
+.ticle img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* .overlay-items-portfolio{
+  opacity: 0.4;
+  height: 170px;
+  width: 310px;
+  background-color: #018cffb3;
+  transition: all 1s;
+}
+.items-portfolio:hover .overlay-items-portfolio{
+  opacity: 1;
+  box-shadow: 0px 0px 15px 10px #ffffff21;
+}
+.items-portfolio:hover .overlay-items-portfolio i{
+  opacity: 1;
+}
+.items-portfolio:hover .overlay-items-portfolio p{
+  opacity: 1;
+}
+.overlay-items-portfolio i{
+  opacity: 0;
+  font-size: 2em;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  color: #2196f3bd;
+  background-color: white;
+  padding: 10px;
+  border: 3px solid white;
+  transition: all 1s;
+}
+.overlay-items-portfolio p{
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: all 1s;
+} */
+/* >>>>>>>>>>>>>>>>>>> OFFICES <<<<<<<<<<<<<<<<<<<< */
+#offices{
+  background-image: url(img/BG2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 1000px;
+}
+#offices .container{
+
+margin-top: -100px;
+}
+
+/* >>>>>>>>>>>>>>>>>>> cliens <<<<<<<<<<<<<<<<<<<< */
+#cliens{
+  height: 800px;
+}
+
+/* >>>>>>>>>>>>>>>>>>> contact <<<<<<<<<<<<<<<<<<<< */
+#contact{
+  background-image: url(img/BG3.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media querie */
+@media screen and (max-width: 1268px) {
+  .container {
+    max-width: 100% !important;
+}
+.container-portfolio-items{
+  flex-wrap: wrap;
+
+}
+.container-portfolio-items div{
+  flex-direction: column;
+}
+}
+@media screen and (max-width: 768px) {
+/* services */
+
+.title-and-paragraph p{
+width: 100%;
+}
+#position-all-services{
+flex-direction: column;
+}
+.icones-idea-design-code p{
+  width: 100%;
+}
+}
+@media screen and (max-width: 720px){
+  .container-portfolio-items{
+    flex-wrap: nowrap;
+    margin-top: 300px !important;
+  }
+
+}
